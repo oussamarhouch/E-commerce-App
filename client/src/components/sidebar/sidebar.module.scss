@@ -1,43 +1,46 @@
 .root {
-    display: block;
-    overflow: visible;
-    position: static;
-    text-align: start;
-    float: left;
-    margin: 30px;
+  display: block;
+  overflow: visible;
+  position: static;
+  text-align: start;
+  float: left;
+  margin: 0px;
+  height: 768px;
+  border: 0px solid black;
+  border-right: 3px solid #aea4a4;
 }
 
 .sidebarUP {
-    border: 0px solid #FFFFFF;
-    border-radius: 3px;
-    border-bottom: 100px solid #FFFFFF;
-    text-align: center;
+  border: 0px solid #ffffff;
+  border-radius: 3px;
+  border-bottom: 100px solid #ffffff;
+  text-align: center;
 }
 
 .sidebarMid {
-    display: block;
-    align-self: center;
-    text-align: center;
-    border: 0px solid #FFFFFF;
-    border-bottom: 130px solid #FFFFFF;
+  display: block;
+  align-self: center;
+  text-align: center;
+  border: 0px solid #ffffff;
+  border-bottom: 130px solid #ffffff;
 }
 
 .sidebarBot {
-    border-bottom: 30px solid #FFFFFF;
-    text-align: center;
+  text-align: center;
+  border: 0px solid #ffffff;
 }
 
 .sidebtn {
-    font-weight: 500;
-    font-style: normal;
-    font-size: 25px;
-    border-bottom: 30px solid #FFFFFF;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  border-bottom: 30px solid #ffffff;
 }
 
 .profil {
-    border-top: 10px solid #FFFFFF;
-    position: static;
-    min-width: 0px;
-    font-weight: 600;
-    font-size: 45px;
+  border-top: 10px solid #ffffff;
+  min-width: 0px;
+  font-weight: 600;
+  font-size: 45px;
+  width: 130px;
 }

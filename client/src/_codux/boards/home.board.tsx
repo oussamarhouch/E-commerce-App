@@ -4,10 +4,18 @@ import { HomeMenu } from '../../components/home-menu/home-menu';
 
 export default createBoard({
     name: 'Home',
-    Board: () => <div>
+    Board: () => (
         <div>
-            <Sidebar /></div>
-        <div>
-            <HomeMenu></HomeMenu>
-        </div></div>
+            <div>
+                <Sidebar />
+            </div>
+            <div>
+                <HomeMenu></HomeMenu>
+            </div>
+        </div>
+    ),
+    environmentProps: {
+        windowWidth: 1920,
+        windowHeight: 1080,
+    },
 });
