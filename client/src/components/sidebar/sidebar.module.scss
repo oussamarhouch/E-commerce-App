@@ -1,0 +1,43 @@
+.root {
+    display: block;
+    overflow: visible;
+    position: static;
+    text-align: start;
+    float: left;
+    margin: 30px;
+}
+
+.sidebarUP {
+    border: 0px solid #FFFFFF;
+    border-radius: 3px;
+    border-bottom: 100px solid #FFFFFF;
+    text-align: center;
+}
+
+.sidebarMid {
+    display: block;
+    align-self: center;
+    text-align: center;
+    border: 0px solid #FFFFFF;
+    border-bottom: 130px solid #FFFFFF;
+}
+
+.sidebarBot {
+    border-bottom: 30px solid #FFFFFF;
+    text-align: center;
+}
+
+.sidebtn {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 30px solid #FFFFFF;
+}
+
+.profil {
+    border-top: 10px solid #FFFFFF;
+    position: static;
+    min-width: 0px;
+    font-weight: 600;
+    font-size: 45px;
+}

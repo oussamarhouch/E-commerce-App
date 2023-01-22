@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oussama Rhouch",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "expressjs": "^1.0.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
